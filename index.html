@@ -54,7 +54,22 @@
                 <p class="mb-0">A Brawl Stars Club</p>
               </div>
             </div>
+            <div class="slideshow-container">
+
+<div class="mySlides fade">
+          <img class="img-fluid" src="img/club6.png" style="width:700px; height:370;" alt="">
+</div>
+
+<div class="mySlides fade">
             <img class="img-fluid" src="img/club6.png" style="width:700px; height:370;" alt="">
+</div>
+
+<div class="mySlides fade">
+            <img class="img-fluid" src="img/club6.png" style="width:700px; height:370;" alt="">
+</div>
+
+</div>
+
           </a>
         </div>
         <div class="col-lg-6">
@@ -123,7 +138,70 @@
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
 <i class='bx bxs-chevron-up'></i>
   </a>
+<style>
 
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+<div style="text-align:center;  visibility: hidden;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
 
 
 </body>
