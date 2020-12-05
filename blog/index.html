@@ -50,7 +50,7 @@
   <section class="content-section" id="about">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">About Us</h3>
+        <h3 class="text-secondary mb-0">THE LEGENDZ BLOGS</h3>
         <h2 class="mb-5">Our Community | Our Team | Our Bot | Our Club</h2>
       </div>
       <div class="row no-gutters">
@@ -58,13 +58,13 @@
           <a class="portfolio-item" href="https://www.starlist.pro/stats/club/UG8CRCUY">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Club</div>
-                <p class="mb-0">A Brawl Stars Club</p>
+                <div class="h2" id="one">{{ title }}</div>
+                <p class="mb-0" id="onecontent">{{ content }}</p>
               </div>
             </div>
 
 
-            <img class="img-fluid" src="img/club6.png" style="width:900px; height:393px;" alt="">
+            <img class="img-fluid" src="//legendz.js.org/img/club6.png" style="width:900px; height:393px;" alt="">
 
           </a>
         </div>
@@ -73,11 +73,11 @@
           <a class="portfolio-item" href="https://discord.gg/MpdByee">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Discord Community</div>
-                <p class="mb-0">A Place Where You Can Chill</p>
+                <div class="h2" id="two">{{ title }}</div>
+                <p class="mb-0" id="twocontent">{{ content }}</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/lol.png" style="width:900px; height:393px;" alt="">
+            <img class="img-fluid" src="//legendz.js.org/img/lol.png" style="width:900px; height:393px;" alt="">
           </a>
         </div>
         
@@ -87,8 +87,8 @@
           <a class="portfolio-item" href="./blog">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Team</div>
-                <p class="mb-0">A Team Of Brawl Stars Gamers</p>
+                <div class="h2" id="three">{{ title }}</div>
+                <p class="mb-0" id="threecontent">{{ content }}</p>
               </div>
             </div>
             <img class="img-fluid" src="img/team.png" alt="">
@@ -99,8 +99,8 @@
           <a class="portfolio-item" href="https://discord.com/oauth2/authorize?client_id=783642114280914966&scope=bot&permissions=670420289">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Discord Bot</div>
-                <p class="mb-0">A Simple But Stable Discord Bot</p>
+                <div class="h2" id="four">{{ title }}</div>
+                <p class="mb-0" id="fourcontent">{{ content }}</p>
               </div>
             </div>
             <img class="img-fluid" src="img/bots1.png" style="height:335px; width:900px;" alt="">
@@ -181,6 +181,7 @@
 }
 </style>
 
+        <script src="blog.js"></script>
 
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
