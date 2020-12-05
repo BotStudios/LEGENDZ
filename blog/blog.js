@@ -1,7 +1,7 @@
 var app = new Vue({ 
     el: '#one',
     data: {
-       title: 'TL'
+       title: 'Hey'
     }
 });
 var app = new Vue({ 
