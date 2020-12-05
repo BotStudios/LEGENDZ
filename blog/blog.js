@@ -23,13 +23,13 @@ var app = new Vue({
     }
 });
 var app = new Vue({ 
-    el: '#tree',
+    el: '#three',
     data: {
         title: 'Mr'
     }
 });
 var app = new Vue({ 
-    el: '#treecontent',
+    el: '#threecontent',
     data: {
         content: 'Ice'
     }
