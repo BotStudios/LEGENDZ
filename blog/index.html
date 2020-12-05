@@ -54,8 +54,8 @@
         <h2 class="mb-5">Our Community | Our Team | Our Bot | Our Club</h2>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6" data-aos="fade-down">
-          <a class="portfolio-item" href="https://www.starlist.pro/stats/club/UG8CRCUY">
+        <div id="onelink" class="col-lg-6" data-aos="fade-down">
+          <a class="portfolio-item" :href="link">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2" id="one">{{ title }}</div>
@@ -69,8 +69,8 @@
           </a>
         </div>
 <!-- replace -->
-            <div class="col-lg-6" data-aos="fade-down">
-          <a class="portfolio-item" href="https://discord.gg/MpdByee">
+            <div id="twolink" class="col-lg-6" data-aos="fade-down">
+          <a class="portfolio-item" :href="link">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2" id="two">{{ title }}</div>
@@ -84,8 +84,8 @@
         
         <!-- end -->
 
-        <div class="col-lg-6" data-aos="fade-down">
-          <a class="portfolio-item" href="./blog">
+        <div id="threelink" class="col-lg-6" data-aos="fade-down">
+          <a class="portfolio-item" :href="link">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2" id="three">{{ title }}</div>
@@ -97,8 +97,8 @@
           </a>
         </div>
 <!-- replace -->
-        <div class="col-lg-6" data-aos="fade-down">
-          <a class="portfolio-item" href="https://discord.com/oauth2/authorize?client_id=783642114280914966&scope=bot&permissions=670420289">
+        <div id="fourlink" class="col-lg-6" data-aos="fade-down">
+          <a class="portfolio-item" :href="link">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2" id="four">{{ title }}</div>
