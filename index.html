@@ -19,7 +19,7 @@
  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="page-top" class="unselectable">
 
 
 
@@ -30,11 +30,18 @@
       <h3 class="mb-5" data-aos="fade-right">
         <em>A Club | A Bot | A Team | A Community</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" data-aos="fade-right" href="#about">Learn More</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" data-aos="fade-right" style="border-radius:50px;" href="#about">Learn More</a>
     </div>
     <div class="overlay"></div>
   </header>
-
+<style>
+  .unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }</style>
  
  
   <!-- Portfolio -->
