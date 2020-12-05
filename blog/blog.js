@@ -10,6 +10,14 @@ var app = new Vue({
         content: 'Aaron'
     }
 });
+new Vue({
+  el: "#oneimg",
+  data: {
+    image: 'https://legendz.js.org/img/club6.png'
+  }
+})
+
+
 var app = new Vue({ 
     el: '#two',
     data: {
@@ -22,6 +30,14 @@ var app = new Vue({
         content: 'Lee'
     }
 });
+new Vue({
+  el: "#twoimg",
+  data: {
+    image: 'https://legendz.js.org/img/lol.png'
+  }
+})
+
+
 var app = new Vue({ 
     el: '#three',
     data: {
@@ -34,6 +50,15 @@ var app = new Vue({
         content: 'Ice'
     }
 });
+new Vue({
+  el: "#threeimg",
+  data: {
+    image: 'https://legendz.js.org/img/team.png'
+  }
+})
+
+
+
 var app = new Vue({ 
     el: '#four',
     data: {
@@ -46,4 +71,9 @@ var app = new Vue({
         content: 'Lily'
     }
 });
-
+new Vue({
+  el: "#fourimg",
+  data: {
+    image: 'https://legendz.js.org/img/bots1.png'
+  }
+})
