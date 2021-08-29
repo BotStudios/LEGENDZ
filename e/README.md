@@ -1,1 +1,0 @@
-## Brawl Stars Emotes
